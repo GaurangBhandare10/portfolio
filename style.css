@@ -397,6 +397,9 @@ html,body{
 
 
     @media screen and (max-width:320px) {
+        .elem img{
+            display: none;
+        }
         #about{
             padding-left: 18vw;
         }
@@ -428,6 +431,11 @@ html,body{
             /* #secondpage{
                 height: 350vh;
             } */
+
+            .elem img{
+                display: block;
+            }
+
             #about img{
                 width: 212px;
                 height: 230px;
@@ -453,6 +461,9 @@ html,body{
                 body{
                     width: 100vw;
                     height: 100vh;    
+                }
+                .elem img{
+                    display: none;
                 }
           }
         }
