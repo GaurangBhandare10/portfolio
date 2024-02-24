@@ -425,6 +425,12 @@ html,body{
         #textabout {
             width: 18rem;
         }
+        .elem img{
+            display: none;
+        }
+        #minicircle{
+            display: none;
+        }
         }
 
         @media screen and (min-width:1024px) {
@@ -456,16 +462,17 @@ html,body{
             }
         }
 
-        @media screen and (min-width: 769px) and (max-width: 1024px) {
-            @media screen and (max-width:768px) {
+        @media screen and (max-width:768px) {
                 body{
                     width: 100vw;
                     height: 100vh;    
                 }
+                #minicircle{
+                    display: none;
+                }
                 .elem img{
                     display: none;
                 }
-          }
         }
 
         /* @media screen and (min-width:1025px) and  (max-width: 1500px){
